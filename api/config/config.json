@@ -1,8 +1,8 @@
 {
   "development": {
-    "username": "root",
+    "username": "plat_root",
     "password": null,
-    "database": "usina",
+    "database": "plat_usina",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
