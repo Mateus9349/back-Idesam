@@ -32,7 +32,10 @@ module.exports = (sequelize, DataTypes) => {
     extrativistas: DataTypes.STRING,
     locais: DataTypes.STRING,
     processo: DataTypes.STRING,
-    despesas: DataTypes.FLOAT
+    despesas: DataTypes.FLOAT,
+    cozimento: DataTypes.BOOLEAN,
+    estufagem: DataTypes.BOOLEAN,
+    separacao: DataTypes.BOOLEAN
   }, {
     sequelize,
     modelName: 'Processos',
